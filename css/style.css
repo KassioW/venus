@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,400|Open+Sans:400,700|Raleway:500,600");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    background-color: #E7CEFD;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 85px;
+    width: 40vh;
+}
+
+nav a {
+    color: #7927c5;
+    font-weight: 549;
+    padding-right: 40px;
+}
+
+
+/*CARROSEL*/
+
+section.slider {
+    margin: 0 auto;
+    padding: 0 !important;
+    overflow: hidden;
+    position: absolute;
+    height: 727px;
+    width: 1302px;
+    top: 149px;
+    left: 347px;
+}
+
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input {
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-manual,
+.nav-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 53%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn,
+.nav-auto div {
+    border: 1px solid yellow;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+/*FIMCARROSEL*/
+
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+    margin-right: 15px;
+}
+
+.nav-manual .manual-btn:hover {
+    background-color: yellow;
+}
+
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: yellow;
+}
+
+#radio1:checked~.primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked~.primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked~.primeiro {
+    margin-left: -50%;
+}
+
+.titulo {
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 750px;
+    top: 1130px;   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;   
+    color: #8A0EF8;
+}
+
+.facialimg {
+    height: 503px;
+    left: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 1300px;
+    width: 503px;
+}
+
+.facial{
+    align-items: flex-end;
+    background-color: #E7CEFD;
+    border: 15px solid;
+    border-color: #8A0EF8;
+    display: flex;
+    flex-direction: column;
+    height: 534px;
+    left: 500px;
+    padding: 16px 37px;
+    position: absolute;
+    top: 392px;
+    width: 378px;
+}
+
+.textofacial1{
+    height: 168px;
+    position: relative;
+    width: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textofacial2{
+    height: 48px;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.textofacial3{
+    left: 98px;
+    position: absolute;
+    top: 153px;
+    font-weight: bold;
+}
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #8A0EF8;
+    
+  }
+
+  .button1:hover{
+    background-color: #8A0EF8;
+    color: white;
+  }
+  
