@@ -52,13 +52,15 @@ a:hover {
   
   nav { 
     flex-grow: 1; 
-    margin-left: 100px; 
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
   }
   
   nav a {
     margin-left: 100px;
     color: #7927c5;
-    font-weight: 549;
+    white-space: nowrap; 
   }
 
   nav a:hover {
@@ -71,15 +73,16 @@ a:hover {
 
 .tela-agendar-meio {
 position: absolute;
-left: -55vh;
-top: 55vh;
+left: -90vh;
+top: 75vh;
 width: 95vh;
 height: 47vh;
-background: rgba(242,230,232,1);
+background: rgb(245, 199, 243);
 position: relative;
 border: 0vh solid rgba(150,150,150,1);
 border-radius: 9vh;
 box-shadow: 3vh 3vh 1vh #40387980;
+transform: translate(-50%, -50%);
 }
 .tela-agendar-meio-frase {
   position: absolute;
