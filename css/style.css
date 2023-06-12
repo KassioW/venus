@@ -9,11 +9,17 @@
     text-decoration: none;
 }
 
+html,
 body {
-    font-family: sans-serif;
-    background: linear-gradient(73.56deg, #F3EFF6 26.6%, #F6EFFC 37.44%, #E7CEFD 59.47%);
+  height: 100%;
+  width: 100%;
 }
 
+body {
+  font-family: sans-serif;
+
+  background: linear-gradient(73.56deg, #F3EFF6 26.6%, #F6EFFC 37.44%, #E7CEFD 59.47%);
+}
 a:hover {
     text-decoration: none;
   }
@@ -25,14 +31,14 @@ a:hover {
     right: 0;
     display: flex;
     height: 100px;
-    background-color: rgba(231, 206, 253, 0.9); /* Altere o último valor para ajustar a transparência */
+    background-color: rgba(231, 206, 253, 0.9); 
     justify-content: space-between;
     align-items: center;
     padding: 35px;
     z-index: 999;
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave */ 
+    transition: background-color 0.3s ease; 
   }
-  
+
   .logo {
     display: flex;
     align-items: center;
@@ -54,7 +60,14 @@ a:hover {
     color: #7927c5;
     font-weight: 549;
   }
+
+  nav a:hover {
+    border-bottom: 2px solid #7927c5;
+  }
   
+  nav a.active {
+    border-bottom: 2px solid #7927c5;
+  }
 
 /*CARROSEL*/
 
@@ -219,7 +232,7 @@ section.slider {
     height: 534px;
     left: 410px;
     padding: 16px 37px;
-    position: relative;
+    position: absolute;
     top: 1450px;
     width: 378px;
 }
@@ -334,8 +347,8 @@ section.slider {
     height: 534px;
     left: 1163px;
     padding: 16px 37px;
-    position: relative;
-    top: 910px;
+    position: absolute;
+    top: 1450px;
     width: 378px;
 }
 
