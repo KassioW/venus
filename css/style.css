@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700,400|Open+Sans:400,700|Raleway:500,600");
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 * {
     margin: 0;
@@ -8,45 +9,65 @@
     text-decoration: none;
 }
 
+html,
 body {
-    font-family: sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
+body {
+  font-family: sans-serif;
+
+  background: linear-gradient(73.56deg, #F3EFF6 26.6%, #F6EFFC 37.44%, #E7CEFD 59.47%);
+}
 a:hover {
     text-decoration: none;
-}
-
-header {
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     height: 100px;
-    background-color: #E7CEFD;
+    background-color: rgba(231, 206, 253, 0.9); 
     justify-content: space-between;
     align-items: center;
     padding: 35px;
-}
+    z-index: 999;
+    transition: background-color 0.3s ease; 
+  }
 
-.logo {
+  .logo {
     display: flex;
     align-items: center;
-
-}
-
-.logo img {
+  }
+  
+  .logo img {
     margin-top: 20px;
-    height: 300px;
-    width: 50vh;
-}
-nav{
-    left: 20px;
-    right: 200px;
-}
-nav a {
+    height: 330px; 
+    max-width: 100%; 
+  }
+  
+  nav { 
+    flex-grow: 1; 
+    margin-left: 100px; 
+  }
+  
+  nav a {
+    margin-left: 100px;
     color: #7927c5;
     font-weight: 549;
-   
-    margin-right: 50px;
-}
+  }
 
+  nav a:hover {
+    border-bottom: 2px solid #7927c5;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #7927c5;
+  }
 
 /*CARROSEL*/
 
@@ -55,10 +76,10 @@ section.slider {
     padding: 0 !important;
     overflow: hidden;
     position: absolute;
-    height: 727px;
-    width: 1302px;
-    top: 149px;
-    left: 40px;
+    height: 80%;
+    width: 60%;
+    top: 169px;
+    left: 400px;
 }
 
 .slider-content {
@@ -80,16 +101,18 @@ section.slider {
     text-align: center;
 }
 
-.slide-box img {
-    width: 80%;
-    height: 70%;
+.slider img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .nav-manual,
 .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 35%;
+    margin-top: 50%;
     display: flex;
     justify-content: center;
 }
@@ -133,12 +156,26 @@ section.slider {
     margin-left: -50%;
 }
 
+.titulo0{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 670px;
+    top: 100px;   
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;   
+    color: #8A0EF8;
+}
+
 .titulo {
     position: absolute;
     width: 509px;
     height: 56px;
-    left: 470px;
-    top: 750px;   
+    left: 670px;
+    top: 950px;   
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -147,17 +184,45 @@ section.slider {
     color: #8A0EF8;
 }
 
+.titulo1 {
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 750px;
+    top: 2010px;   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;   
+    color: #8A0EF8;
+    
+}
+
+.titulo2 {
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 769px;
+    top: 2100px;   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;   
+    color: #8A0EF8;
+    font-family: Dancing Script;
+}
 .facialimg {
     height: 503px;
-    left: 150px;
+    left: 350px;
     object-fit: cover;
     position: absolute;
-    top: 850px;
+    top: 1050px;
     width: 503px;
 }
 
 .facial{
-
     align-items: center;
     background-color: #E7CEFD;
     border: 15px solid;
@@ -165,10 +230,10 @@ section.slider {
     display: flex;
     flex-direction: column;
     height: 534px;
-    left: 210px;
+    left: 410px;
     padding: 16px 37px;
-    position: relative;
-    top: 1150px;
+    position: absolute;
+    top: 1450px;
     width: 378px;
 }
 
@@ -263,6 +328,120 @@ section.slider {
 
 }
 
+.corporalimg {
+    height: 503px;
+    left: 1100px;
+    object-fit: cover;
+    position: absolute;
+    top: 1050px;
+    width: 503px;
+}
+
+.corporal{
+    align-items: center;
+    background-color: #E7CEFD;
+    border: 15px solid;
+    border-color: #8A0EF8;
+    display: flex;
+    flex-direction: column;
+    height: 534px;
+    left: 1163px;
+    padding: 16px 37px;
+    position: absolute;
+    top: 1450px;
+    width: 378px;
+}
+
+.textocorporal1{
+    height: 168px;
+    position: relative;
+    width: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.textocorporal2{
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.textocorporal3{
+    margin-top: 180px;
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.textocorporal4{
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    top: 260px;
+}
+
+.textocorporal5{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 190px;
+}
+
+.textocorporal6{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+
+}
 .button1 {
     border: none;
     color: white;
@@ -283,5 +462,27 @@ section.slider {
   .button1:hover{
     background-color: #8A0EF8;
     color: white;
+  }
+
+  .final{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 866px;
+    margin-left: 14px;
+    margin-top: 121px;
+    width: 652px;
+    z-index: 3;
+  }
+
+  .textofinal{
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 130px;
+    white-space: nowrap;
+    width: 410px;
+    font-weight: bold;
   }
   
