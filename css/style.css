@@ -28,17 +28,23 @@ header {
 .logo {
     display: flex;
     align-items: center;
+
 }
 
 .logo img {
-    height: 85px;
-    width: 40vh;
+    margin-top: 20px;
+    height: 300px;
+    width: 50vh;
 }
-
+nav{
+    left: 20px;
+    right: 200px;
+}
 nav a {
     color: #7927c5;
     font-weight: 549;
-    padding-right: 40px;
+   
+    margin-right: 50px;
 }
 
 
@@ -52,20 +58,22 @@ section.slider {
     height: 727px;
     width: 1302px;
     top: 149px;
-    left: 347px;
+    left: 40px;
 }
 
 .slider-content {
     width: 400%;
     height: auto;
     display: flex;
+    right: 900px;
 }
 
 .slider-content input {
     display: none;
 }
 
-.slide-box {
+.slide-box { 
+    background-size: cover;
     width: 25%;
     height: auto;
     position: relative;
@@ -73,15 +81,15 @@ section.slider {
 }
 
 .slide-box img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 70%;
 }
 
 .nav-manual,
 .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 53%;
+    margin-top: 35%;
     display: flex;
     justify-content: center;
 }
@@ -129,8 +137,8 @@ section.slider {
     position: absolute;
     width: 509px;
     height: 56px;
-    left: 750px;
-    top: 1130px;   
+    left: 470px;
+    top: 750px;   
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -141,25 +149,26 @@ section.slider {
 
 .facialimg {
     height: 503px;
-    left: 450px;
+    left: 150px;
     object-fit: cover;
     position: absolute;
-    top: 1300px;
+    top: 850px;
     width: 503px;
 }
 
 .facial{
-    align-items: flex-end;
+
+    align-items: center;
     background-color: #E7CEFD;
     border: 15px solid;
     border-color: #8A0EF8;
     display: flex;
     flex-direction: column;
     height: 534px;
-    left: 500px;
+    left: 210px;
     padding: 16px 37px;
-    position: absolute;
-    top: 392px;
+    position: relative;
+    top: 1150px;
     width: 378px;
 }
 
@@ -173,27 +182,85 @@ section.slider {
     letter-spacing: 0;
     text-align: center;
     font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .textofacial2{
     height: 48px;
-    left: 63px;
     letter-spacing: 0;
     line-height: 24px;
     position: absolute;
     text-align: center;
-    top: 140px;
+    top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .textofacial3{
-    left: 98px;
+    margin-top: 180px;
     position: absolute;
-    top: 153px;
     font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.textofacial4{
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    top: 260px;
+}
+
+.textofacial5{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 190px;
+}
+
+.textofacial6{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .button1 {
@@ -210,7 +277,7 @@ section.slider {
     background-color: white; 
     color: black; 
     border: 2px solid #8A0EF8;
-    
+    font-weight: bold;
   }
 
   .button1:hover{
