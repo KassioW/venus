@@ -78,14 +78,14 @@ section.slider {
     padding: 0 !important;
     overflow: hidden;
     position: relative;
-    height: 105vh;
-    width: 250vh;
+    height: auto;
+    width: 100%;
     top: 30%;
     left: 0%;
 }
 
 .slider-content {
-    width: 800vh;
+    width: 400%;
     height: auto;
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -97,17 +97,15 @@ section.slider {
 
 .slide-box { 
     background-size: cover;
-    width: 200vh;
-    height: 100vh;
+    width: 25%;
+    height: auto;
     position: relative;
     text-align: center;
 }
 
 .slider img {
-    display: block;
-    max-width: 200vh;
-    height: 130vh;
-    margin: auto;
+    max-width: 100%;
+    height: 80%;
   }
 
 .nav-manual,
