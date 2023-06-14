@@ -104,8 +104,10 @@ section.slider {
 }
 
 .slider img {
-    max-width: 1650px;
-    height: 1000px;
+    border-radius: 1rem;
+    box-shadow: 0 0.1rem 0.5rem rgb(170, 146, 146);
+    width: 150vh;
+    height: 100vh;
   }
 
 .nav-manual,
