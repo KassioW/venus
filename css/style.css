@@ -30,11 +30,11 @@ a:hover {
     left: 0;
     right: 0;
     display: flex;
-    height: 100px;
+    height: 15%;
     background-color: rgba(231, 206, 253, 0.9); 
     justify-content: space-between;
     align-items: center;
-    padding: 35px;
+    padding: 3.5%;
     z-index: 999;
     transition: background-color 0.3s ease; 
   }
@@ -45,20 +45,22 @@ a:hover {
   }
   
   .logo img {
-    margin-top: 20px;
-    height: 330px; 
-    max-width: 100%; 
+    margin-top: 8%;
+    height: 33%; 
+    max-width: 48vh; 
   }
   
   nav { 
     flex-grow: 1; 
-    margin-left: 100px; 
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
   }
   
   nav a {
-    margin-left: 100px;
+    margin-left: 10vh;
     color: #7927c5;
-    font-weight: 549;
+    white-space: nowrap; 
   }
 
   nav a:hover {
@@ -77,16 +79,16 @@ section.slider {
     overflow: hidden;
     position: absolute;
     height: 80%;
-    width: 60%;
-    top: 169px;
-    left: 400px;
+    width: 70%;
+    top: 40%;
+    left: 15%;
 }
 
 .slider-content {
     width: 400%;
     height: auto;
     display: flex;
-    right: 900px;
+    right: 90%;
 }
 
 .slider-content input {
@@ -120,7 +122,7 @@ section.slider {
 .nav-manual .manual-btn,
 .nav-auto div {
     border: 1px solid yellow;
-    padding: 10px;
+    padding: 1%;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
@@ -131,7 +133,7 @@ section.slider {
 
 .nav-manual .manual-btn:not(:last-child),
 .nav-auto div:not(:last-child) {
-    margin-right: 15px;
+    margin-right: 1.5%;
 }
 
 .nav-manual .manual-btn:hover {
@@ -160,66 +162,61 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 670px;
-    top: 100px;   
+    left: 25%;
+    top: 20%;   
     font-family: 'Dancing Script';
     font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;   
+    font-size: 8vh;
+    line-height: 1vh;   
     color: #8A0EF8;
 }
 
 .titulo {
     position: absolute;
-    width: 509px;
-    height: 56px;
-    left: 670px;
-    top: 950px;   
+    width: auto;
+    height: auto;
+    left: 30%;
+    top: 140%;   
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;   
+    font-size: 8vh;
+    line-height: 1vh;   
     color: #8A0EF8;
 }
 
 .titulo1 {
     position: absolute;
-    width: 509px;
-    height: 56px;
-    left: 750px;
-    top: 2010px;   
+    width: auto;
+    height: auto;
+    left: 35%;
+    top: 318%;   
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;   
+    font-size: 8vh;
+    line-height: 1%;   
     color: #8A0EF8;
     
 }
 
 .titulo2 {
     position: absolute;
-    width: 509px;
-    height: 56px;
-    left: 769px;
-    top: 2100px;   
+    width: auto;
+    height: auto;
+    left: 37%;
+    top: 325%;   
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;   
+    font-size: 8vh;
     color: #8A0EF8;
     font-family: Dancing Script;
 }
 .facialimg {
-    height: 503px;
-    left: 350px;
+    height: auto;
+    left: 10%;
     object-fit: cover;
     position: absolute;
-    top: 1050px;
-    width: 503px;
+    top: 164%;
+    width: auto;
 }
 
 .facial{
@@ -229,11 +226,11 @@ section.slider {
     border-color: #8A0EF8;
     display: flex;
     flex-direction: column;
-    height: 534px;
-    left: 410px;
+    height: auto;
+    left: 15%;
     padding: 16px 37px;
     position: absolute;
-    top: 1450px;
+    top: 227%;
     width: 378px;
 }
 
