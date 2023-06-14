@@ -51,13 +51,17 @@ a:hover {
   }
   
   nav { 
+    width: 10vh;
+    height: 10vh;
     flex-grow: 1; 
     display: flex;
     align-items: center;
-    margin-left: 1%;
+    margin-left: 1vh;
   }
   
   nav a {
+    width: auto;
+    height: 2vh;
     margin-left: 10vh;
     color: #7927c5;
     white-space: nowrap; 
@@ -167,8 +171,8 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 25%;
-    top: 20%;   
+    left: 50vh;
+    top: 20vh;   
     font-family: 'Dancing Script';
     font-style: normal;
     font-size: 8vh;
@@ -180,8 +184,8 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 30%;
-    top: 142%;   
+    left: 60vh;
+    top: 137vh;   
     font-family: 'Raleway';
     font-style: normal;
     font-size: 8vh;
@@ -193,8 +197,8 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 32%;
-    top: 260%;   
+    left: 67vh;
+    top: 260vh;   
     font-family: 'Raleway';
     font-style: normal;
     font-size: 8vh;
@@ -207,8 +211,8 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 35%;
-    top: 270%;   
+    left: 72vh;
+    top: 270vh;   
     font-family: 'Raleway';
     font-style: normal;
     font-size: 8vh;
