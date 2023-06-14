@@ -121,7 +121,7 @@ section.slider {
 
 .nav-manual .manual-btn,
 .nav-auto div {
-    border: 1px solid yellow;
+    border: 1px solid #8A0EF8;
     padding: 1%;
     border-radius: 50%;
     cursor: pointer;
@@ -137,14 +137,14 @@ section.slider {
 }
 
 .nav-manual .manual-btn:hover {
-    background-color: yellow;
+    background-color: #8A0EF8;
 }
 
 #radio1:checked~.nav-auto .auto-btn1,
 #radio2:checked~.nav-auto .auto-btn2,
 #radio3:checked~.nav-auto .auto-btn3,
 #radio4:checked~.nav-auto .auto-btn4 {
-    background-color: yellow;
+    background-color: #8A0EF8;
 }
 
 #radio1:checked~.primeiro {
