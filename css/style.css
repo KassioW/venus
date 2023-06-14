@@ -217,10 +217,10 @@ section.slider {
 }
 .facialimg {
     height: 50vh;
-    left: 10%;
+    left: 19vh;
     object-fit: cover;
     position: absolute;
-    top: 150%;
+    top: 150vh;
     width: 50vh;
 }
 
@@ -326,10 +326,10 @@ section.slider {
 
 .corporalimg {
     height: 50vh;
-    left: 60%;
+    left: 118vh;
     object-fit: cover;
     position: absolute;
-    top: 150%;
+    top: 150vh;
     width: 50vh;
 }
 
