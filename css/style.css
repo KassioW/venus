@@ -105,16 +105,16 @@ section.slider {
 
 .slider img {
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+    max-width: 200vh;
+    height: 130vh;
+    margin: auto;
   }
 
 .nav-manual,
 .nav-auto {
     position: absolute;
     width: 200vh;
-    margin-top: 45%;
+    top: 88vh;
     display: flex;
     justify-content: center;
 }
@@ -122,8 +122,8 @@ section.slider {
 .nav-manual .manual-btn,
 .nav-auto div {
     border: 1px solid #8A0EF8;
-    padding: 1%;
-    border-radius: 50%;
+    padding: 2vh;
+    border-radius: 50vh;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -454,4 +454,139 @@ section.slider {
     color: white;
   }
 
+  @media screen and (max-width: 100vh) {
   
+    header {
+      height: 10vh;
+      padding: 2vh;
+    }
+  
+    .logo img {
+      margin-top: 5%;
+      height: 25vh;
+      max-width: 28vh;
+    }
+  
+    nav {
+      margin-left: 2%;
+    }
+  
+    nav a {
+      margin-left: 5vh;
+      font-size: 2.4vh;
+    }
+  
+    .titulo0 {
+      left: 5%;
+      top: 10%;
+      font-size: 4vh;
+    }
+  
+    .titulo {
+      left: 7%;
+      top: 70%;
+      font-size: 4vh;
+    }
+  
+    .titulo1 {
+      left: 10%;
+      top: 130%;
+      font-size: 4vh;
+    }
+  
+    .titulo2 {
+      left: 15%;
+      top: 140%;
+      font-size: 4vh;
+    }
+  
+    .facialimg {
+      height: 25vh;
+      left: -15%;
+      top: -50%;
+      width: 25vh;
+    }
+  
+    .facial {
+      left: 5%;
+      top: 150%;
+      width: 25vh;
+    }
+  
+    .textofacial1 {
+      height: 8vh;
+      width: 20vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textofacial2 {
+      top: 10vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textofacial3 {
+      margin-top: 12vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textofacial4 {
+      top: 16vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textofacial5 {
+      font-size: 1.6vh;
+      margin-top: 12vh;
+    }
+  
+    .textofacial6 {
+      font-size: 1.6vh;
+    }
+  
+    .corporalimg {
+      height: 25vh;
+      left: -15%;
+      top: -50%;
+      width: 25vh;
+    }
+  
+    .corporal {
+      left: 50%;
+      top: 150%;
+      width: 25vh;
+    }
+  
+    .textocorporal1 {
+      height: 8vh;
+      width: 20vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textocorporal2 {
+      top: 10vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textocorporal3 {
+      margin-top: 12vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textocorporal4 {
+      top: 16vh;
+      font-size: 1.6vh;
+      line-height: 2vh;
+    }
+  
+    .textocorporal5 {
+      font-size: 1.6vh;
+      margin-top: 13;
+    }
+}
