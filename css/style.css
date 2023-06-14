@@ -85,7 +85,7 @@ section.slider {
 }
 
 .slider-content {
-    width: 800vh;
+    width: 400%;
     height: auto;
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -156,11 +156,11 @@ section.slider {
 }
 
 #radio3:checked~.primeiro {
-    margin-left: -50%;
+    margin-left: -51%;
 }
 
 #radio4:checked~.primeiro {
-    margin-left: -75%;
+    margin-left: -77%;
 }
 
 .titulo0{
