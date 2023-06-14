@@ -85,7 +85,7 @@ section.slider {
 }
 
 .slider-content {
-    width: 400%;
+    width: 800vh;
     height: auto;
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -156,11 +156,11 @@ section.slider {
 }
 
 #radio3:checked~.primeiro {
-    margin-left: -51%;
+    margin-left: -50%;
 }
 
 #radio4:checked~.primeiro {
-    margin-left: -77%;
+    margin-left: -75%;
 }
 
 .titulo0{
@@ -217,10 +217,10 @@ section.slider {
 }
 .facialimg {
     height: 50vh;
-    left: 19vh;
+    left: 10%;
     object-fit: cover;
     position: absolute;
-    top: 150vh;
+    top: 150%;
     width: 50vh;
 }
 
@@ -326,10 +326,10 @@ section.slider {
 
 .corporalimg {
     height: 50vh;
-    left: 118vh;
+    left: 60%;
     object-fit: cover;
     position: absolute;
-    top: 150vh;
+    top: 150%;
     width: 50vh;
 }
 
