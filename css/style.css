@@ -188,8 +188,8 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 35%;
-    top: 318%;   
+    left: 32%;
+    top: 260%;   
     font-family: 'Raleway';
     font-style: normal;
     font-size: 8vh;
@@ -202,8 +202,8 @@ section.slider {
     position: absolute;
     width: auto;
     height: auto;
-    left: 37%;
-    top: 325%;   
+    left: 35%;
+    top: 270%;   
     font-family: 'Raleway';
     font-style: normal;
     font-size: 8vh;
@@ -215,7 +215,7 @@ section.slider {
     left: 10%;
     object-fit: cover;
     position: absolute;
-    top: 164%;
+    top: 150%;
     width: auto;
 }
 
@@ -226,12 +226,12 @@ section.slider {
     border-color: #8A0EF8;
     display: flex;
     flex-direction: column;
-    height: auto;
-    left: 15%;
+    height: 54%;
+    left: 14%;
     padding: 16px 37px;
     position: absolute;
-    top: 227%;
-    width: 378px;
+    top: 193%;
+    width: 19%;
 }
 
 .textofacial1{
@@ -327,11 +327,11 @@ section.slider {
 
 .corporalimg {
     height: 503px;
-    left: 1100px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
-    top: 1050px;
-    width: 503px;
+    top: 150%;
+    width: auto;
 }
 
 .corporal{
@@ -341,12 +341,12 @@ section.slider {
     border-color: #8A0EF8;
     display: flex;
     flex-direction: column;
-    height: 534px;
-    left: 1163px;
+    height: 55%;
+    left: 64%;
     padding: 16px 37px;
     position: absolute;
-    top: 1450px;
-    width: 378px;
+    top: 193%;
+    width: 19%;
 }
 
 .textocorporal1{
