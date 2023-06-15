@@ -30,11 +30,11 @@ a:hover {
     left: 0;
     right: 0;
     display: flex;
-    height: 15%;
+    height: 15vh;
     background-color: rgba(231, 206, 253, 0.9); 
     justify-content: space-between;
     align-items: center;
-    padding: 3.5%;
+    padding: 3.5vh;
     z-index: 999;
     transition: background-color 0.3s ease; 
   }
@@ -46,7 +46,7 @@ a:hover {
   
   .logo img {
     margin-top: 8%;
-    height: 33%; 
+    height: 45vh; 
     max-width: 48vh; 
   }
   
@@ -116,3 +116,12 @@ input[type="submit"]:hover {
   background-color: #a579c1;
 }
 
+select{
+  width: 375px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+  height: 50px;
+
+}
